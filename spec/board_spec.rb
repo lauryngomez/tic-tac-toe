@@ -13,7 +13,7 @@ describe 'A Tic Tac Toe board' do
   # end
 
   it 'checks if it is empty' do
-    board.empty
+    expect(board).to be_empty
   end
 
  
