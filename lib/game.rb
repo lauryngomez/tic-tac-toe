@@ -1,4 +1,9 @@
 require_relative 'board'
 
-class Fixme
+class Game
+    def game(board)
+        board = Board.new
+    end
+
+    
 end
