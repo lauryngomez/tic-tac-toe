@@ -16,5 +16,8 @@ describe 'A Tic Tac Toe board' do
     expect(board).to be_empty
   end
 
+  it 'checks if it is full' do
+    expect(board).to be_truthy
+  end
  
 end
