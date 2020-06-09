@@ -42,11 +42,11 @@ describe 'A game of tic tac toe' do
     expect(Game.new).to respond_to(:board)
   end
 
-  # it 'can be created with a specific board' do
-  #   fake_board = 'FAKE'
-  #   game = Game.new(fake_board)
-  #   expect(game.board).to eq(fake_board)
-  # end
+  it 'can be created with a specific board' do
+    fake_board = 'FAKE'
+    game = Game.new(fake_board)
+    expect(game.board).to eq(fake_board)
+  end
 
   # it 'is not initially over' do
   #   game = Game.new

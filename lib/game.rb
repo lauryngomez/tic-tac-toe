@@ -3,17 +3,9 @@ require_relative 'board'
 
 class Game
 
-    def game(board)
-        board = Board.new
+    board = Board.new
+
+    def winning
     end
 
-    # def inititalize
-    #     :board
-    # end
-
-    def winning 
-
-    end
-
-    
 end
