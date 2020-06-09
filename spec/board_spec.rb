@@ -8,9 +8,9 @@ describe 'A Tic Tac Toe board' do
     board
   end
 
-  # it 'places token' do
-  #   Board.new.place([1,2], 1, 2)
-  # end
+  it 'places token' do
+    expect(board).to respond_to(:locations)
+  end
 
   it 'checks if it is empty' do
     expect(board).to be_empty
